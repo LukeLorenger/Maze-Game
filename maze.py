@@ -182,7 +182,7 @@ wn.onkey(player.go_right,"d")
 wn.onkey(player.go_up,"w")
 wn.onkey(player.go_down,"s")
 wn.listen()
-wn.mainloop()
+
 
 #Turn off screen updates
 wn.tracer(0)
@@ -204,3 +204,5 @@ while True:
 
     # Update screen
     wn.update()
+
+wn.mainloop()
